@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zeeshan | A software student </title>
+    <meta name="description" content="A Human | A software student who build a new website for the World" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Instagram:card" content="@zeeshanak" />
+    <style>
+        body {
+            max-width: 1200px;
+            margin: o auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0, 8rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20;
+            padding: 20px;
+        }
+
+        .nav-links>a {
+            color: aqua;
+            text-decoration: none;
+            padding: 5px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .nav-links>a:hover {
+            color: blueviolet;
+        }
+
+        #section-home {
+            display: flex;
+            justify-content: space-between;
+
+            background: lightgray;
+            border-radius: 15px;
+            max-height: 480px;
+
+            margin: 15px;
+
+
+        }
+
+        #section-home img {
+            border-top-right-radius: 15px;
+            height: 480px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .about-me {
+            padding: 10px;
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: center;
+            margin: 10
+        }
+
+        .project-50 {
+            width: 50;
+            border-radius: 15px;
+            background-color: aqua;
+            margin: 10px;
+        }
+
+        .project-50 img {
+            width: 570px;
+
+        }
+
+        #project-taskaro {
+            background-color: #333c4c;
+        }
+
+
+        #project-paymento {
+            background-color: #eeeefe;
+        }
+
+
+        #project-taskaro p {
+            color: white;
+            padding: 10px;
+        }
+
+        #project-paymento,
+        p {
+            color: blue;
+            padding: 10px;
+        }
+
+        #piyuu-project {
+            background-color: purple;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        #piyuu-project p,
+        h {
+            font-weight: 200;
+            color: white;
+        }
+
+        #piyuu-project div:nth-child(2) {
+            text-align: center;
+
+        }
+
+        #section-contact {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightpink;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 15px;
+        }
+
+        #section-contact h1,
+        #section-contact h2,
+        #section-contact p,
+        #section-contact a {
+            color: white;
+        }
+
+        #section-contact a {
+            text-decoration: none;
+        }
+
+        .social-link {
+            height: 40px;
+            width: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background-color: #eeeefe;
+            transition: all .8s;
+
+        }
+
+        .social-link:hover {
+            background-color: black;
+        }
+
+        #project-taskaro h1 {
+            color: #eeeefe;
+        }
+
+        @media screen and (max-width:420px) {
+            h1 {
+                font-size: 1.5rem;
+                margin: 0.8rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            body {
+                max-width: 400px;
+            }
+
+            #section-home {
+                margin-bottom: 15px;
+                flex-direction: column;
+                max-height: 524px;
+            }
+
+            #section-home img {
+                height: 200px;
+            }
+
+            .project-list {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center
+            }
+
+            .project-50 img {
+                width: 348px;
+            }
+
+            #piyuu-project img {
+                width: 300px;
+            }
+
+            #section-contact {
+                margin: 10px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navigation for the website-->
+    <nav>
+        <div>
+            <a href="https://www.dell.com/en-in"><img src="top.png" alt="torqbit" height="40" width="auto" /></a>
+        </div>
+        <div class="nav-links">
+            <a href="#section-home">Home</a>
+            <a href="#section-projects">Projects</a>
+            <a href="#section-contact">Contact</a>
+        </div>
+    </nav>
+    <!--About Section-->
+    <section id="section-home">
+        <!--Detail about me-->
+        <div class="about-me">
+            <h1>Hey!...My name is Zeeshan and now i am currently practise the front design of the website</h1>
+            <p>If you outsource software development to a dedicated team, you won’t need to think about HR hassles.
+                Your remote staff is in safe hands with all employee benefits taken care of.</p>
+        </div>
+        <!--My image-->
+        <div>
+            <img src="me.png" alt="my image" />
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section id="section-projects">
+        <div class="project-list">
+            <div id="project-paymento" class="project-50">
+                <div>
+                    <h1>Paymento</h1>
+                    <p>Payment app</p>
+                </div>
+                <div>
+                    <img src="image1.jpeg" alt="image">
+                </div>
+            </div>
+            <div id="project-taskaro" class="project-50">
+                <div>
+                    <h1>Taskaro</h1>
+                    <p>Freelancing Projects</p>
+                </div>
+                <div>
+                    <img src="image2.jpeg" alt="image2">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="piyuu-project">
+            <div>
+                <h>Piyuu</h>
+                <p>Mobile apps</p>
+            </div>
+            <div>
+                <img src="image3.jpeg" alt="image3">
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--Contacts Section-->
+    <section id="section-contact">
+        <div>
+            <h1> Want to Work together</h1>
+            <p>feel free to reach collaboratons just a friendly hello.</p>
+            <a href="mailto:za304282@gmail.com">za304282@gmail.com </a>
+        </div>
+        <div>
+            <h2>Connect with me</h2>
+            <a class="social-link" href="https://twitter.com/home?lang=en"><img src="twitter.png" alt="twitter"
+                    height="25" width="auto"></a>
+            <a class="social-link" href="https://www.instagram.com/"><img src="instagram.png" alt="instagram"
+                    height="25" width="auto" /></a>
+            <a class="social-link" href="https://web.whatsapp.com/"><img src="whatsapp.png" alt="whatapp" height="25"
+                    width="auto" /></a>
+        </div>
+    </section>
+
+</body>
+
+</html>
