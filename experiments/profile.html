@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zeeshan| a student</title>
+    <meta charset="utf-8" />
+    <meta name="zeeshanak" content="zeeshanakh" />
+
+    <style>
+        body {
+            background: rgb(223, 65, 112);
+            background: radial-gradient(circle, rgba(223, 65, 112, 1) 0%, rgba(34, 30, 93, 1) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #navigation {
+            height: 100px;
+            width: 1000px;
+            border-radius: 4px;
+            margin: 20px auto;
+            display: grid;
+            row-gap: 20px;
+            column-gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            background-color: #a682d4;
+            padding: 20px;
+            position: absolute;
+            place-items: center;
+            bottom: 10px;
+            opacity: 0.4;
+            padding-left: 100px;
+
+        }
+
+        .icons {
+            border-radius: 12px;
+            height: 60px;
+            width: 60px;
+            border: 1px solid #3d2062;
+            background-color: #3d2062;
+
+        }
+
+        #image {
+            border-radius: 100%;
+            border: 8px solid white;
+            margin: 20px auto;
+            align-items: center;
+            margin: 20px auto;
+        }
+
+        #image img {
+            height: 320px;
+            width: 320px;
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            border-top-right-radius: 100%;
+            border-bottom-left-radius: 100%;
+        }
+
+        .skilled {
+            display: flex;
+            justify-content: space-between;
+            background-color: purple;
+            padding: 5px 10px;
+            margin: 5px;
+            opacity: 0.4;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        #myself,
+        p {
+            color: white;
+            margin-top: 20px 0px;
+            text-align: center;
+        }
+
+        #new {
+            color: white;
+        }
+
+        @media screen and (max-width:420px) {
+            #navigation {
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                width: 400px;
+            }
+
+
+            navigatin div:nth-child(6) {
+                display: none;
+            }
+
+            navigatin div:nth-child(7) {
+                display: none;
+            }
+
+            navigatin div:nth-child(8) {
+                display: none;
+            }
+
+            navigatin div:nth-child(9) {
+                display: none;
+            }
+
+            navigatin div:nth-child(10) {
+                display: none;
+            }
+
+            #image img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="image">
+            <img src="me.png">
+        </div>
+        <div id="myself">
+            <h1>Zeeshan Akhter</h1>
+        </div>
+        <p>Senior software engineer at Apple</p>
+        <p>lives in New York</p>
+        <div id="new">
+            <h1> Skilled in</h1>
+        </div>
+        <div class="skilled">
+            <p>java</p>
+            <p>Reactjs</p>
+            <p>javascript</p>
+            <p>html</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="navigation">
+
+
+        <div class="icons"><img src="Pinterest.svg"></div>
+        <div class="icons"><img src="Reddit.svg"></div>
+        <div class="icons"><img src="Gmail.svg"></div>
+        <div class="icons"><img src="Linkedin.svg"></div>
+        <div class="icons"><img src="Facebook.svg"></div>
+        <div class="icons"><img src="Instagram.svg"></div>
+        <div class="icons"><img src="Stack Overflow.svg"></div>
+        <div class="icons"><img src="Twitter.svg"></div>
+        <div class="icons"><img src="Whatsapp.svg"></div>
+        <div class="icons"><img src="Youtube.svg"></div>
+
+    </div>
+</body>
+
+</html>
