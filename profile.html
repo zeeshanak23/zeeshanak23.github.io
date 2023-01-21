@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zeeshan| A software student</title>
+    <meta charset="utf-" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="zeeshan:card" content="zeeshnaak23@gmail.com" />
+
+</head>
+<style>
+    body {
+        background-color: darkcyan;
+        margin: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav {
+        background-color: blue;
+        height: 100px;
+        width: 1000px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 10px;
+        padding: 10px;
+        opacity: 1.4;
+        transform: scale(1);
+        transition: all .8s;
+
+    }
+
+    #nav>:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: lavender;
+    }
+
+    .icons {
+        height: 60px;
+        width: 60px;
+        border: 1px solid black;
+        row-gap: 10px;
+        border-radius: 10px;
+        column-gap: 10px;
+        background-color: black;
+
+
+
+    }
+
+    #image {
+        border-radius: 100%;
+        border: 8px solid white;
+        margin: 20px auto;
+        align-items: center;
+        margin: 20px auto;
+        box-shadow: 3px 3px 10px 3px red;
+    }
+
+    #white h1,
+    p {
+        color: aliceblue;
+    }
+
+    #white {
+        text-align: center;
+    }
+
+    #image img {
+        height: 320px;
+        width: 320px;
+        border-top-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+
+    }
+
+    .skill>div {
+        color: aliceblue;
+        border: 2px solid black;
+        border-radius: 12px;
+        padding: 10px;
+
+
+    }
+
+    .skill {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    @media screen and (max-width:420px) {
+        #nav {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            width: 400px;
+            margin-left: 20px;
+
+        }
+
+
+        #nav>div:nth-child(6) {
+            display: none;
+        }
+
+        #nav>div:nth-child(7) {
+            display: none;
+        }
+
+        #nav>div:nth-child(8) {
+            display: none;
+        }
+
+        #nav>div:nth-child(9) {
+            display: none;
+        }
+
+        #nav>div:nth-child(10) {
+            display: none;
+        }
+
+        #image img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+
+    }
+</style>
+
+<body>
+    <div id="white">
+        <div id="image">
+            <img src="me.png">
+        </div>
+        <div>
+            <h1>Zeeshan Akhter</h1>
+        </div>
+        <div>
+            <p>Senior software Engineer at Apple</p>
+            <p>lives in new York</p>
+        </div>
+        <div>
+            <h1>Skilled in</h1>
+        </div>
+        <div class="skill">
+            <div>java</div>
+            <div>javascript</div>
+            <div>HTMl</div>
+            <div>Nodesjs</div>
+            <div>Reactjs</div>
+
+        </div>
+    </div>
+    <div id="nav">
+        <div class="icons"><img src="Gmail.svg"></div>
+        <div class="icons"><img src="Facebook.svg"></div>
+        <div class="icons"><img src="Instagram.svg"></div>
+        <div class="icons"><img src="Linkedin.svg"></div>
+        <div class="icons"><img src="Pinterest.svg"></div>
+        <div class="icons"><img src="Reddit.svg"></div>
+        <div class="icons"><img src="Stack Overflow.svg"></div>
+        <div class="icons"><img src="Twitter.svg"></div>
+        <div class="icons"><img src="Whatsapp.svg"></div>
+        <div class="icons"><img src="Youtube.svg"></div>
+
+    </div>
+</body>
+
+</html>
