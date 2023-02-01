@@ -127,6 +127,7 @@
             width: 25px;
             border-radius: 100%;
             border: 1px solid grey;
+            padding: 3px;
         }
 
         #gallery {
@@ -138,25 +139,30 @@
 
         #part-3 {
             display: flex;
-            margin: 20px;
-            justify-content: space-around;
-            padding: 20px;
+            margin: 10px;
+            margin-left: 105px;
+        }
+
+        #part-3>div {
+            margin: 10px;
         }
 
         .clinic-gallery>div {
-            border-radius: 12px;
-            border: 1px;
+            border-radius: 20px;
+            border: 1px solid gray;
             background-color: whitesmoke;
             color: black;
             padding: 10px;
             margin: 4px;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+
         }
 
         .clinic-gallery {
             display: flex;
-
         }
+
 
         #gallery {
             justify-content: space-around;
@@ -164,16 +170,22 @@
 
         .service-2 {
             display: flex;
+            padding: 10px;
         }
 
         .service-2>div {
-            margin: 10px;
-            padding: 10px;
+            margin: 5px;
+            padding: 5px;
         }
 
         #service {
             display: flex;
-            justify-content: space-around;
+            margin-left: 90px;
+
+        }
+
+        #service>div {
+            padding: 40px;
         }
 
         .list>div {
@@ -189,13 +201,9 @@
 
         #call-doctor {
             display: flex;
-            justify-content: space-around;
-        }
+            justify-content: space-between;
+            margin: 30px;
 
-        #call2 {
-            background-color: lightgray;
-            margin: 80px;
-            padding: 10px;
         }
 
         .skill>div {
@@ -204,12 +212,17 @@
             border-radius: 8px;
             margin: 5px;
             padding: 5px;
-            font-size: 0.7rem;
+            font-size: 1.2rem;
+
+        }
+
+        .skill {
+            flex-wrap: wrap;
         }
 
         #doctor-photo {
             margin: 10px;
-            margin-left: 370px;
+            margin-left: 350px;
         }
 
         .doctor-image {
@@ -261,10 +274,14 @@
 
         #pharma-company {
             display: flex;
-            margin: 10px;
-            justify-content: space-around;
+            margin: 20px;
             padding: 10px;
+            margin-left: 80px;
 
+        }
+
+        #pharma-company>div {
+            padding: 35px;
         }
 
         #blog {
@@ -366,8 +383,23 @@
         }
 
         #call2 {
+            display: flex;
             padding: 20px;
-            justify-content: space-around;
+            background-color: lightgray;
+            padding: 20px;
+            margin-bottom: 200px;
+            margin-left: 30px;
+
+        }
+
+        .call-1 {
+            color: white;
+            padding: 20px;
+            background-color: gray;
+            padding: 20px;
+            margin-bottom: 200px;
+
+
         }
 
         .form-1 {
@@ -492,6 +524,42 @@
         .social-link {
             justify-content: space-between;
         }
+
+        .d2>span {
+            border: 1px solid lightgray;
+            background-color: whitesmoke;
+            border-radius: 100%;
+            padding: 40px;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 45px;
+            padding-top: 45px;
+
+        }
+
+        .r1>span {
+            border: 1px solid lightgray;
+            background-color: whitesmoke;
+            border-radius: 100%;
+            padding: 40px;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 45px;
+            padding-top: 45px;
+
+        }
+
+        .drag>span {
+            border-radius: 100%;
+            background-color: black;
+            color: white;
+            font-size: 1.1rem;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+        }
     </style>
 
 </head>
@@ -561,7 +629,8 @@
                 <span>The Modern Hearnic Clinic is one of the<br> best Modern hearing aid and speech<br> therapy Clinic
                     in
                     Dhanbad</span>
-                <p style="border-radius: 4px;background-color:black;color:white;padding:2px;width:85px">Learn More</p>
+                <p style=>
+                    Learn More</p>
             </div>
             <div>
                 <img src="img/doctor-2.webp" alt="paste image" height="195px">
@@ -620,7 +689,7 @@
                     <h1>Gallery</h1>
                 </div>
                 <div>
-                    <h1>Check out our clinic great gallery</h1>
+                    <h1>Check out our clinic<br> great gallery</h1>
                     <div class="clinic-gallery">
                         <div>#clinic</div>
                         <div>#Audiology</div>
@@ -631,24 +700,25 @@
                 </div>
                 <div class="png-image">
                     <img src="img/twitter.png">
-                    <img src="img/instagram.png">
-                    <img src="img/linkedin.png">
+                    <img src="img/facebook.webp">
+                    <img src="img/telegram.webp">
                     <img src="img/whatsapp.png">
                 </div>
             </div>
             <div id="part-3">
                 <div>
-                    <img src="img/portrait.jpeg" alt="portrait" height="450" width="300">
-                    <p>01 / Collection of therapy</p>
+                    <img src="img/therapy-collection.webp" alt="therapy" height="520" width="400">
+                    <p><b>01 / Collection of therapy</b></p>
                     <P> The boy got a 50% discount</P>
                 </div>
-                <div class="drag" style="margin-top:200px">
-                    <span
-                        style="border-radius: 100%;background-color:black;color:white;font-size:2.1rem;padding:20px;">Drag</span>
+                <div style="margin-top: 210px;" class="drag">
+                    <span>
+                        Drag
+                    </span>
                 </div>
                 <div>
-                    <img src="img/portrait.2jpeg.jpg" alt="portrait2" height="300" width="280">
-                    <p>02 / Therapy equipment</p>
+                    <img src="img/portrait.2jpeg.jpg" alt="portrait2" height="400" width="420">
+                    <p><b>02 / Therapy equipment</b></p>
                     <p>Best equipment for therapy</p>
                 </div>
             </div>
@@ -656,17 +726,21 @@
     </section>
     <section id="service">
         <div>
-            <h1>service</h1>
+            <h1>Service</h1>
         </div>
         <div>
             <div>
-                <h1>Excellent services of our clinic</h1>
+                <h1 style="font-size: 1.9rem;">Excellent services<br> of our clinic</h1>
             </div>
             <div class="service-2">
-                <div style="border: 2px;background-color:black;color:white;border-radius:8px;padding:10px" class="1">All
+                <div style="border: 1px solid;color:white;background-color:black;border-radius:20px;padding:20px">All
                 </div>
-                <div style="border: 2px solid;background-color:white;border-radius:6px;padding:10px">For adult</div>
-                <div style="border: 2px solid;background-color:white;border-radius:6px;padding:10px">For children
+                <div
+                    style="border-radius: 15px;background-color:white;color:black;padding:20px;width:70px;text-align:center;border:1px solid;font-size:0.9rem;">
+                    For adult</div>
+                <div
+                    style="border-radius: 15px;background-color:white;color:black;padding:20px;width:90px;text-align:center;border:1px solid;font-size:0.9rem;">
+                    For children
                 </div>
             </div>
             <div class="list">
@@ -749,7 +823,7 @@
         </div>
     </section>
     <div id="call-doctor">
-        <div style="background-color:gray;border-radius:4px;padding:10px;margin:80px" class="call-1">
+        <div class="call-1">
             <div>
                 <p>Take a discount for a child under 5 years of age,for the fist examination</p>
             </div>
@@ -759,16 +833,17 @@
                     <h1>50%</h1>
                 </div>
                 <div>
-                    <img src="img/quote.png" style="border-radius: 100%;border:1px solid;padding:10px;margin:20px"
-                        alt="/" height="25" width="auto">
+                    <img src="img/call.png"
+                        style="border-radius: 100%;border:1px solid;background-color:white;padding:10px;margin:20px"
+                        alt="/" height="35" width="auto">
                 </div>
             </div>
         </div>
-        <div style="display: flex;justify-content:space-between;" id="call2">
+        <div id="call2">
             <div>
-                <img style="padding: 20px;margin-right:1px" src="img/doctor-2.webp" height="200" width="auto">
+                <img src="img/new-doctor.jpeg" height="200" width="auto">
             </div>
-            <div style="padding: 25px;">
+            <div style="padding: 10px;">
                 <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:10px" alt="/" height="20"
                     width="auto">
                 <h1 style="font-size: 0.9rem;margin:10px">"Stand up to the sick s you world have them stand up to you in
@@ -793,63 +868,64 @@
                 <p>Our Clinic employs only Professional<br> Speacialist and audiologist.we selected the <br>best doctor
                     on a regular basis.</p>
             </div>
-            <div style="border-radius: 100%;background-color:lightgray;padding:55px;font-size:0.9rem;
-            " class="d2">
-                All doctors ->
+            <div class="d2">
+                <span>
+                    All doctors →
+                </span>
             </div>
         </div>
         <div id="doctor-photo">
             <div class="doctor-image">
                 <div>
-                    <img src="img/doctor-4.jpeg" alt="doctor" height="250" width="180">
+                    <img src="img/new-doctor.jpeg" alt="doctor" height="290" width="340">
                     <h1>Dr.Shayam Khurana</h1>
                     <p>Work experience-8 years</p>
 
                     <div style="display: flex" class="skill">
-                        <div>therapist</div>
+                        <div>Therapist</div>
                         <div>Ankylologist</div>
-                        <div>head</div>
+                        <div>head of the department</div>
                     </div>
                 </div>
                 <div>
-                    <img src="img/doctor-2.webp" height="250" width="180">
+                    <img src="img/new-doctor.jpeg" height="290" width="340">
                     <h1>Dr. Arti Sukhla</h1>
                     <p>Work experience-8 years</p>
 
                     <div style="display: flex" class="skill">
-                        <div>therapist</div>
-                        <div>Ankylologist</div>
+                        <div>Therapist</div>
+                        <div>Otolaryngologist</div>
                         <div>cheif doctor</div>
                     </div>
                 </div>
             </div>
             <div class="doctor-image">
                 <div>
-                    <img src="img/doctor-1.webp" height="250" width="180">
+                    <img src="img/new-doctor.jpeg" height="290" width="340">
                     <h1>Dr.Rani kohli</h1>
                     <p>Work experience-2 years</p>
 
                     <div style="display: flex" class="skill">
-                        <div>therapist</div>
+                        <div>Therapist</div>
                         <div>Ankylologist</div>
                         <div>Intern</div>
                     </div>
                 </div>
                 <div>
-                    <img src="img/doctor-3.avif" height="250" width="180">
+                    <img src="img/new-doctor.jpeg" height="290" width="340">
                     <h1>Dr.Nikhil Nanda</h1>
                     <p>Work experience-2 years</p>
 
                     <div style="display: flex" class="skill">
-                        <div>therapist</div>
-                        <div>Ankylologist</div>
-                        <div>Intern</div>
+                        <div>Therapist</div>
+                        <div>Otolaryngologist</div>
+                        <div>Head of the department</div>
                     </div>
                 </div>
             </div>
             <div class="doctor-image">
                 <div>
-                    <img src="img/doctor-5.jpg" height="250" width="180">
+                    <img src="img/new-doctor.jpeg" height="290" width="340">
                     <h1>Dr.Rahul Sharma</h1>
                     <p>Work experience-3 years</p>
 
@@ -860,7 +936,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="img/doctor-6.jpg" height="250" width="180">
+                    <img src="img/new-doctor.jpeg" height="290" width="340">
                     <h1>Dr.Kulkarni Thakur</h1>
                     <p>Work experience-3 years</p>
 
@@ -875,7 +951,7 @@
 
     </section>
     <div id="section-reveiw">
-        <div style="display: flex;justify-content:space-around" class="reveiw">
+        <div style="display: flex;justify-content:space-around;margin:20px;padding:20px" class="reveiw">
             <div>
                 <h1>Reveiw</h1>
             </div>
@@ -883,9 +959,8 @@
                 <h1>Feedback from our favorite customers</h1>
                 <p>we treat our customers better than any<br> other clinic.Thank you for being with us!</p>
             </div>
-            <div style="border-radius: 100%;background-color:lightgray;padding:55px;font-size:0.9rem;
-            " class="r1">
-                <b>All reveiws -></b>
+            <div style="margin: 70px;" class="r1">
+                <span>All reveiws →</span>
             </div>
         </div>
         <div style="display: flex;" class="reveiw-2">
@@ -1018,23 +1093,23 @@
 
             <div id="pharma-company">
                 <div>
-                    <img style="border-radius: 100%;height:95px;width:95px;border:1px solid" src="img/sun.png"
+                    <img style="border-radius: 100%;height:120px;width:120px;border:1px solid" src="img/sun.png"
                         alt="sun">
                 </div>
                 <div>
-                    <img style="border-radius: 100%;height:95px;width:95px;border:1px solid" src="img/reddy.png"
+                    <img style="border-radius: 100%;height:120px;width:120px;border:1px solid" src="img/reddy.png"
                         alt="reddy">
                 </div>
                 <div>
-                    <img style="border-radius: 100%;height:95px;width:95px;border:1px solid" src="img/alkem.png"
+                    <img style="border-radius: 100%;height:120px;width:120px;border:1px solid" src="img/alkem.png"
                         alt="alkem">
                 </div>
                 <div>
-                    <img style="border-radius: 100%;height:95px;width:95px;border:1px solid" src="img/cipla.png"
+                    <img style="border-radius: 100%;height:120px;width:120px;border:1px solid" src="img/cipla.png"
                         alt="cipla">
                 </div>
                 <div>
-                    <img style="border-radius: 100%;height:95px;width:95px;border:1px solid" src="img/biocon.png"
+                    <img style="border-radius: 100%;height:120px;width:120px;border:1px solid" src="img/biocon.png"
                         alt="biocon">
                 </div>
             </div>
