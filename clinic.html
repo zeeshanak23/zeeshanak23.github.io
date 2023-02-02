@@ -32,7 +32,7 @@
         #first-section>img {
             object-fit: cover;
             height: 100vh;
-            width: 98.5vw;
+            width: 99vw;
             position: absolute;
             z-index: -10;
         }
@@ -41,6 +41,7 @@
             padding: 20px 50px;
             display: flex;
             justify-content: space-between;
+
         }
 
         .brand {
@@ -52,7 +53,7 @@
             text-decoration: none;
             color: white;
             font-size: 25px;
-            margin: 30px;
+            margin: 10px;
             padding: 12px;
         }
 
@@ -72,13 +73,15 @@
         #sentence {
             color: white;
             padding: 20px 50px;
-            font-size: 52px;
+            font-size: 2.3rem;
         }
 
         #last {
             display: flex;
             color: white;
             padding: 5px 50px;
+            justify-content: center;
+
 
         }
 
@@ -92,19 +95,19 @@
         }
 
         #last h1 {
-            font-size: 55px;
+            font-size: 35px;
         }
 
         #last p {
-            font-size: 30px;
+            font-size: 20px;
         }
 
         #image p {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         #image span {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         #image {
@@ -115,14 +118,15 @@
             padding-bottom: 8px;
             border-radius: 2px;
             background-color: rgba(46, 34, 38, 80%);
-            width: 730px;
-            height: 375px;
+            width: 650px;
+            height: 320px;
             margin-top: -30px;
         }
 
         #image-part {
             justify-content: space-between;
-            padding: 12px;
+            padding: 10px;
+            margin: 10px;
             display: flex;
         }
 
@@ -143,7 +147,9 @@
 
         #second-2 {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+            padding: 80px;
+            margin-top: -80px;
         }
 
         .png-image img {
@@ -163,7 +169,7 @@
         #part-3 {
             display: flex;
             margin: 10px;
-            margin-left: 5px;
+
             place-content: center;
 
 
@@ -209,9 +215,13 @@
 
         #service {
             display: flex;
-            margin-left: 110px;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-
+        .service-1 {
+            place-items: top;
         }
 
         #service>div {
@@ -233,8 +243,9 @@
 
         #call-doctor {
             display: flex;
-            margin: 160px;
-            margin-top: -10px;
+            max-width: 1200px;
+            margin: 0 auto;
+
 
         }
 
@@ -248,24 +259,37 @@
 
         }
 
+        .new-skill {
+            background-color: lightgray;
+            border: 1px;
+            border-radius: 8px;
+            margin: 5px;
+            padding: 5px;
+            font-size: 1.2rem;
+
+        }
+
         .skill {
+            flex-direction: row;
             flex-wrap: wrap;
         }
 
         #doctor-photo {
-            margin: 10px;
-            margin-left: 620px;
-            margin-top: -199px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-left: -140px;
+
         }
 
         .doctor-image {
             display: flex;
-            padding: 20px;
-            margin-left: -159px;
+            padding: 0px;
+            justify-content: right;
         }
 
         .doctor-image>div {
-            padding: 20px;
+            padding: 10px;
+            margin: 10px;
         }
 
         .round>img {
@@ -278,17 +302,19 @@
 
         .reveiw-2 {
             margin: 10px;
-            padding-left: 300px;
+            justify-content: center;
         }
 
         .reveiw-2>div {
-            margin: 15px;
+            margin: 20px;
         }
 
         #appointment {
             background-color: darkslateblue;
             color: white;
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .f1 {
@@ -298,18 +324,20 @@
 
         #faq-1 {
             display: flex;
-
+            padding: 30px;
 
 
         }
 
         #faq {
-            margin-left: 160px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         #Partner {
             display: flex;
-            margin-left: -20px;
+            max-width: 1200px;
+            margin: 0 auto;
 
         }
 
@@ -317,6 +345,8 @@
             display: flex;
             margin: 2px;
             padding: 10px;
+            margin: 0 auto;
+            max-width: 1200px;
 
 
         }
@@ -327,14 +357,25 @@
 
         #blog {
             display: flex;
-            justify-content: space-around;
-            margin-left: -90px;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 40px;
+
+
         }
 
         #blog-2 {
             display: flex;
-            margin-left: 300px;
+            max-width: 1200px;
+            justify-content: right;
             padding: 50px;
+            margin: 0 auto;
+        }
+
+        #blog-2>div {
+            margin-left: 40px;
+            margin-top: -40px;
         }
 
         .blog-item>div {
@@ -357,6 +398,8 @@
         #terms {
             background-color: darkslateblue;
             color: white;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .top {
@@ -410,16 +453,21 @@
 
         .term-3 {
             display: flex;
-            justify-content: space-around;
-            margin: 10px;
-            margin-right: 830px;
+            margin-left: 42px;
+
+        }
+
+        .term-3>div {
+            margin: 20px;
         }
 
         .term-4 {
             display: flex;
-            justify-content: space-around;
-            margin: 10px;
-            margin-right: 830px;
+            margin-left: 42px;
+        }
+
+        .term-4>div {
+            margin: 20px;
         }
 
         .last-page-2 {
@@ -434,14 +482,14 @@
             background-color: lightgray;
             height: 250px;
             margin-left: 30px;
-            width: 600px;
+            width: 570px;
         }
 
         .call-1 {
             color: white;
             padding: 20px;
             background-color: gray;
-            width: 450px;
+            width: 430px;
             height: 250px;
             font-size: 1.6rem;
         }
@@ -518,8 +566,9 @@
 
         .button {
             text-align: center;
-            font-size: 1.6rem;
-            padding: 8px 2px;
+            justify-content: center;
+            font-size: 1.9rem;
+            padding: 5px 10px;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
             border-bottom-right-radius: 10px;
@@ -528,6 +577,7 @@
             width: 110px;
             outline: none;
             margin-left: 185px;
+            padding-bottom: 10px;
         }
 
         .button>button {
@@ -538,43 +588,35 @@
 
         .button-hearnic {
             text-align: center;
-            font-size: 1.4rem;
-            padding: 3px 4px;
+            font-size: 1.5rem;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
             border-bottom-right-radius: 10px;
             border-bottom-left-radius: 10px;
             background-color: darkblue;
             width: 110px;
+            padding-bottom: 10px;
             margin-left: 60px;
-            padding-bottom: 8px;
+            margin-top: 20px;
         }
 
         .button-hearnic>button {
             background-color: darkblue;
             color: white;
+
         }
 
         .round-image>img {
             border-radius: 100%;
             height: 35px;
-            padding: 2px;
+            padding: 20px;
 
         }
 
         .round-image {
-            margin-left: 90px;
+            margin-left: 60px;
         }
 
-        .second-last {
-            display: flex;
-            justify-content: space-around;
-
-        }
-
-        .social-link {
-            justify-content: space-between;
-        }
 
         .d2 {
             margin-top: 80px;
@@ -625,8 +667,55 @@
         .about-list {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            font-size: 1.2rem;
-            margin: 30px;
+            font-size: 1.1rem;
+        }
+
+        .about-list>div {
+            width: 190px;
+        }
+
+        .about-list p {
+            color: grey;
+        }
+
+        .arrow-hearing {
+            display: flex;
+            align-items: flex-end;
+
+        }
+
+        #Doctors {
+            max-width: 1200px;
+            margin: 100px auto;
+        }
+
+        #section-reveiw {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #last-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .second-last {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .second-last>div {
+            margin: 20px;
+            font-size: 1.6rem;
+            margin-top: -10px;
+
+        }
+
+        .doctor-heading {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
         }
     </style>
 
@@ -665,7 +754,7 @@
 
                 <p>Profeesional in their field,who can be trusted and get the best results</p>
             </div>
-            <div id="image">
+            <div style="margin-top: -70px;" id="image">
                 <img src="img/old-man-1.jpeg" alt="1">
                 <img src="img/old-man-2.jpeg" alt="2">
                 <img src="img/old-man-3.jpeg" alt="3">
@@ -680,8 +769,8 @@
                 </p>
                 <br>
                 <div id="image-part">
-                    <span style="font-size: 44px">20%</span>
-                    <button type="button" style="font-size: 25px;padding:15px">Make an appointment</button>
+                    <span style="font-size: 30px">20%</span>
+                    <button type="button" style="font-size: 15px;padding:15px">Make an appointment</button>
 
                 </div>
             </div>
@@ -704,47 +793,59 @@
                     Learn More</p>
             </div>
             <div>
-                <img src="img/doctor-2.webp" alt="paste image" width="420px" height="230px">
+                <img src="img/doctor-2.webp" alt="paste image" width="400px" height="230px">
             </div>
         </div>
         <div id="second-2">
-            <div class="about-list">
+            <div class="arrow-hearing">
                 <div>
-                    <h1>01</h1>
-                    <hr>
-                    <p>we use modern<br> equipment</p>
+                    <img style="border-radius: 100%; border: 1px solid grey;margin-bottom:20px" src="img/arrow.jpg"
+                        alt="img" height="80" width="auto">
                 </div>
                 <div>
-                    <h1>02</h1>
-                    <hr>
-                    <p>The result meets<br> all<br> expectations</p>
-                </div>
-            </div>
-            <div class="about-list">
-                <div>
-                    <h1>03</h1>
-                    <hr>
-                    <p>we have the best<br> Profeesional<br> working</p>
-                </div>
-                <div>
-                    <h1>04</h1>
-                    <hr>
-                    <p>we train our own<br> Speacialist</p>
+                    <h1 style="margin: 100px;margin-bottom:20px">Hearing problem resolving<br> of any complexity at a
+                        <br>fixed price
+                    </h1>
                 </div>
             </div>
-            <div class="about-list">
-                <div>
-                    <h1>05</h1>
-                    <hr>
-                    <p>Individual contract<br> with the client</p>
+            <div>
+                <div class="about-list">
+                    <div>
+                        <h1>01</h1>
+                        <hr>
+                        <p>we use modern<br> equipment</p>
+                    </div>
+                    <div>
+                        <h1>02</h1>
+                        <hr>
+                        <p>The result meets<br> all<br> expectations</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>06</h1>
-                    <hr>
-                    <p>we have indian<br> certificate</p>
+                <div class="about-list">
+                    <div>
+                        <h1>03</h1>
+                        <hr>
+                        <p>we have the best<br> Profeesional<br> working</p>
+                    </div>
+                    <div>
+                        <h1>04</h1>
+                        <hr>
+                        <p>we train our own<br> Speacialist</p>
+                    </div>
+                </div>
+                <div class="about-list">
+                    <div>
+                        <h1>05</h1>
+                        <hr>
+                        <p>Individual contract<br> with the client</p>
+                    </div>
+                    <div>
+                        <h1>06</h1>
+                        <hr>
+                        <p>we have indian<br> certificate</p>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         <div>
             <div id="gallery">
@@ -770,7 +871,7 @@
             </div>
             <div id="part-3">
                 <div>
-                    <img src="img/therapy-collection.webp" alt="therapy" height="550" width="500">
+                    <img src="img/therapy-collection.webp" alt="therapy" height="550" width="400">
                     <p><b>01 / Collection of therapy</b></p>
                     <P style="padding-left: 22px;"> The boy got a 50% discount</P>
                 </div>
@@ -780,7 +881,7 @@
                     </span>
                 </div>
                 <div>
-                    <img src="img/portrait.2jpeg.jpg" alt="portrait2" height="400" width="500">
+                    <img src="img/portrait.2jpeg.jpg" alt="portrait2" height="400" width="400">
                     <p><b>02 / Therapy equipment</b></p>
                     <p style="margin-left: 30px;">Best equipment for therapy</p>
                 </div>
@@ -788,12 +889,12 @@
         </div>
     </section>
     <section id="service">
-        <div>
+        <div class="service-1">
             <h1>Service</h1>
         </div>
         <div>
-            <div>
-                <h1 style="font-size: 1.9rem;">Excellent services<br> of our clinic</h1>
+            <div style="font-size: 1.9rem;text-align:left;margin:10px">
+                <h1>Excellent services<br> of our clinic</h1>
             </div>
             <div class="service-2">
                 <div
@@ -895,7 +996,7 @@
             <br>
             <div style="display: flex;justify-content:space-between;padding:20px" class="call">
                 <div>
-                    <h1>50%</h1>
+                    <p style="font-size: 2.5rem;">50%</p>
                 </div>
                 <div>
                     <img src="img/call.png"
@@ -924,14 +1025,13 @@
 
     </section>
     <section id="Doctors">
-        <div style="display: flex;margin:50px;justify-content:space-between;margin:115px;padding:60px;margin-top:-140px"
-            class="d1">
+        <div class="doctor-heading">
             <div>
                 <h1>Doctor</h1>
             </div>
             <div>
-                <h1 style="font-size: 2.6rem;margin-left:-2px">Aid Speacialist and<br> audiologist</h1>
-                <p style="margin-left:-10px">Our Clinic employs only Professional<br> Speacialist and audiologist.we
+                <h1 style="font-size: 2.6rem;">Aid Speacialist and<br> audiologist</h1>
+                <p style="color:grey">Our Clinic employs only Professional<br> Speacialist and audiologist.we
                     selected the <br>best doctor
                     on a regular basis.</p>
             </div>
@@ -944,81 +1044,86 @@
         <div id="doctor-photo">
             <div class="doctor-image">
                 <div>
-                    <img src="img/new-doctor.jpeg" alt="doctor" height="350" width="380">
+                    <img src="img/new-doctor.jpeg" alt="doctor" height="350" width="340">
                     <h1>Dr.Shayam Khurana</h1>
                     <p>Work experience-8 years</p>
 
                     <div style="display: flex" class="skill">
                         <div>Therapist</div>
                         <div>Ankylologist</div>
-                        <div>head of the department</div>
                     </div>
+                    <div style="width: 200px;" class="new-skill">head of the department</div>
                 </div>
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="380">
+                    <img src="img/new-doctor.jpeg" height="350" width="340">
                     <h1>Dr. Arti Sukhla</h1>
                     <p>Work experience-8 years</p>
 
                     <div style="display: flex" class="skill">
                         <div>Therapist</div>
                         <div>Otolaryngologist</div>
-                        <div>cheif doctor</div>
+
                     </div>
+                    <div style="width: 100px;" class="new-skill">cheif doctor</div>
                 </div>
             </div>
             <div class="doctor-image">
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="380">
+                    <img src="img/new-doctor.jpeg" height="350" width="340">
                     <h1>Dr.Rani kohli</h1>
                     <p>Work experience-2 years</p>
 
                     <div style="display: flex" class="skill">
                         <div>Therapist</div>
                         <div>Ankylologist</div>
-                        <div>Intern</div>
+
                     </div>
+                    <div style="width: 60px;" class="new-skill">Intern</div>
                 </div>
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="380">
+                    <img src="img/new-doctor.jpeg" height="350" width="340">
                     <h1>Dr.Nikhil Nanda</h1>
                     <p>Work experience-2 years</p>
 
                     <div style="display: flex" class="skill">
                         <div>Therapist</div>
                         <div>Otolaryngologist</div>
-                        <div>Head of the department</div>
+
                     </div>
+                    <div style="width: 190px;" class="new-skill">Head of the department</div>
                 </div>
             </div>
             <div class="doctor-image">
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="380">
+                    <img src="img/new-doctor.jpeg" height="350" width="340">
                     <h1>Dr.Rahul Sharma</h1>
                     <p>Work experience-3 years</p>
 
                     <div style="display: flex" class="skill">
                         <div>therapist</div>
                         <div>Audiologist</div>
-                        <div>Intern</div>
+
                     </div>
+                    <div style="width: 60px;" class="new-skill">Intern</div>
                 </div>
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="380">
+                    <img src="img/new-doctor.jpeg" height="350" width="340">
                     <h1>Dr.Kulkarni Thakur</h1>
                     <p>Work experience-3 years</p>
 
                     <div style="display: flex;" class="skill">
                         <div>therapist</div>
                         <div>children's Audiologist</div>
-                        <div>Intern</div>
+
                     </div>
+                    <div style="width: 60px;" class="new-skill">Intern</div>
                 </div>
             </div>
         </div>
 
     </section>
     <div id="section-reveiw">
-        <div style="display: flex;justify-content:space-around;margin:20px;padding:20px;" class="reveiw">
+        <div style="display: flex;justify-content:space-around;" class="reveiw">
             <div>
                 <h1>Reveiw</h1>
             </div>
@@ -1030,15 +1135,15 @@
                 <span>All reveiws →</span>
             </div>
         </div>
-        <div style="display: flex;margin-left:165px;margin-top:-60px" class="reveiw-2">
+        <div style="display: flex;" class="reveiw-2">
             <div class="round">
-                <img src="img/reveiw-icon.jpeg" height="130" width="130">
+                <img src="img/reveiw-icon.jpeg" height="160" width="160">
             </div>
             <div>
                 <div style="border-radius: 100%;border:1px solid;height:65px;width:65px;margin:10px" class="r1">
                     <img src="img/quote.png" height="25" width="auto">
                 </div>
-                <p style="font-style: italic;font-size:1.4rem"><b>"I had a therapy consulation on<br> october 24th and
+                <p style="font-style: italic;font-size:1.8rem"><b>"I had a therapy consulation on<br> october 24th and
                         was pleasantly
                         <br>surprised that i did not have<br> astigmatism,which had been<br> diagnosed for 8 years by
                         luxury<br> opticians.I really enjoyed the<br> attitude of the clients,everyone is<br>
@@ -1185,12 +1290,12 @@
         <div>
             <div id="blog">
                 <div>
-                    <h1>blog</h1>
+                    <h1 style="font-size: 2.3rem;">Blog</h1>
                 </div>
-                <div style="font-size: 1.9rem;">
+                <div style="font-size: 1.9rem;justify-content:center;padding:30px">
                     <h1>You may be<br> interested to know</h1>
                 </div>
-                <div style="margin-left: -390px;" class="blog-arrow">
+                <div style="margin-top: 80px;" class="blog-arrow">
                     <img style="border-radius: 100%;height:65px;width:65px;border:1px solid" src="img/right-arrow.png"
                         alt="arrow">
                     <img style="border-radius: 100%;height:65px;width:65px;border:1px solid" src="img/left-arrow.png"
@@ -1200,7 +1305,7 @@
             <div id="blog-2">
                 <div>
                     <div>
-                        <img src="img/ear-patient.jpeg" alt="ear" height="180" width="auto">
+                        <img src="img/ear-patient.jpeg" alt="ear" height="180" width="400">
                     </div>
                     <div class="blog-item">
                         <div>therapy</div>
@@ -1213,7 +1318,7 @@
                 </div>
                 <div>
                     <div>
-                        <img src="img/portrait.2jpeg.jpg" alt="equipment" height="180" width="500">
+                        <img src="img/portrait.2jpeg.jpg" alt="equipment" height="180" width="450">
                     </div>
                     <div class="blog-item">
                         <div>Equipment</div>
@@ -1232,19 +1337,19 @@
         <div class="top">
             <div class="two-last">
                 <div>
-                    <img style="padding: 30px;" src="img/white-ear.webp" height="55px" width="auto">
+                    <img style="padding: 30px;" src="img/white-ear-logo.webp" height="55px" width="auto">
                 </div>
                 <div style="padding:6px">
                     <h1>Hearnic</h1>
                     <p>Medical clinic</p>
                 </div>
             </div>
-            <div style="padding: 30px;" class="up-arrow">
-                <img src="img/up-arrow.png" height="25px" width="auuto">
+            <div style="padding: 40px;" class="up-arrow">
+                <img src="img/up-arrow.png" height="45px" width="auto">
             </div>
         </div>
         <div class="term-2">
-            <div style="margin-left: 60px;">
+            <div style="margin-left:70px">
                 <h1>We'll call you back </h1>
             </div>
             <div class="term-3">
@@ -1270,24 +1375,24 @@
         </div>
 
         <div class="last-section">
-            <div style="margin: 50px;margin-bottom:-30px;margin-left:60px">
+            <div style="font-size:1.4rem;margin-left:55px">
                 <h1>Site Map</h1>
             </div>
             <div class="second-last">
-                <div style="margin-right:790px">
-                    <div style="margin: 5px;padding:15px;font-size:1.4rem;">
+                <div>
+                    <div style="margin: 35px;">
                         <span>Home</span>
-                        <span>service</span>
+                        <span style="margin: 20px;">service</span>
                         <span>Contact</span>
-                        <span>Gallery</span>
+                        <span style="margin: 20px;">Gallery</span>
                     </div>
-                    <div style="margin: 5px;padding:15px;font-size:1.4rem;">
+                    <div style="margin: 35px;">
                         <span>About us</span>
-                        <span>Doctors</span>
+                        <span style="margin: 20px;">Doctors</span>
                         <span>Blog</span>
-                        <span>Partners</span>
+                        <span style="margin: 20px;">Partners</span>
                     </div>
-                    <div style="display: flex;">
+                    <div style="display: flex;margin:30px">
                         <div style="padding: 8px;">
                             <img src="img/copyright.png" height="30" width="auto">
                         </div>
@@ -1298,7 +1403,7 @@
                     </div>
                 </div>
                 <div class="social-link">
-                    <div style="font-size: 1.2rem;">
+                    <div style="font-size: 1.5rem;">
                         <h1>We are on social media</h1>
                     </div>
                     <div class="round-image">
@@ -1307,11 +1412,11 @@
                         <img src="img/linkedin.png" alt="social-media">
                         <img src="img/telegram.webp" alt="social-media">
                     </div>
-                    <div style="display: flex;font-size:1.3rem;margin:12px;">
+                    <div style="display: flex;font-size:1.5rem;margin-right:80px;">
                         <div>
                             <span>Privacy policy</span>
                         </div>
-                        <div style="margin-left: 9px;">
+                        <div style="margin-left:20px">
                             <span>Terms & Conditions</span>
                         </div>
                     </div>
