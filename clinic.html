@@ -7,20 +7,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Instagram:card" content="@zeeshanak" />
-    <script>
-        function metro_city(city) {
-            if (city == "Mumbai" || city == "Delhi" || city == "Kolkata" || city == "Chennai") {
-                console.log(city + " is a metro city")
-            } else {
-                console.log(city + " is not a metro city")
-            }
-        }
-        metro_city("Dhanbad")
-    </script>
+
     <style>
         body {
             margin: 0 auto;
-
 
         }
 
@@ -32,7 +22,7 @@
         #first-section>img {
             object-fit: cover;
             height: 100vh;
-            width: 99vw;
+            width: 98.6vw;
             position: absolute;
             z-index: -10;
         }
@@ -153,38 +143,44 @@
         }
 
         .png-image img {
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
             border-radius: 100%;
             border: 1px solid grey;
-            padding: 3px;
+            padding: 4px;
         }
 
-        #gallery {
-            display: flex;
-            place-items: center;
-
+        .png-image {
+            text-align: right;
+            margin-top: 35px;
         }
+
 
         #part-3 {
             display: flex;
             margin: 10px;
-
             place-content: center;
-
-
         }
 
         #part-3>div {
             margin: 10px;
-            margin-left: 40px;
+
             align-items: center;
+        }
+
+        .gallery_middle_part {
+            margin-left: -330px;
+            margin-top: 20px;
+        }
+
+        .gallery_middle_part h1 {
+            font-size: 1.8rem;
         }
 
         .clinic-gallery>div {
             border-radius: 20px;
-            border: 1px solid gray;
-            background-color: whitesmoke;
+            border: 1px solid #c8c8c8;
+            background-color: #f3f3f3;
             color: black;
             padding: 10px;
             margin: 4px;
@@ -201,7 +197,7 @@
         #gallery {
             display: flex;
             justify-content: space-between;
-            padding: 20px 99px;
+            padding: 10px 80px;
 
         }
 
@@ -243,32 +239,46 @@
             margin-top: -50px;
         }
 
+        .faq-list {
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .faq-list>div {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2rem;
+
+        }
+
         #call-doctor {
             display: flex;
             max-width: 1200px;
             margin: 0 auto;
+        }
 
-
+        #call-doctor {
+            justify-content: center;
         }
 
         .skill>div {
-            background-color: lightgray;
-            border: 1px;
-            border-radius: 8px;
+            background-color: #f7f7f7;
+            border: 1px solid lightgray;
+            border-radius: 15px;
             margin: 5px;
-            padding: 5px;
-            font-size: 1.2rem;
-
+            padding: 10px;
+            font-size: 1.1rem;
+            font-weight: bold;
         }
 
         .new-skill {
-            background-color: lightgray;
-            border: 1px;
-            border-radius: 8px;
+            background-color: #f7f7f7;
+            border: 1px solid lightgray;
+            border-radius: 15px;
             margin: 5px;
-            padding: 5px;
-            font-size: 1.2rem;
-
+            padding: 10px;
+            font-size: 1.1rem;
+            font-weight: bold;
         }
 
         .skill {
@@ -279,23 +289,29 @@
         #doctor-photo {
             max-width: 1200px;
             margin: 0 auto;
-            margin-left: -140px;
+            margin-left: -160px;
 
+        }
+
+        #doctor-photo p {
+            color: #848080;
         }
 
         .doctor-image {
             display: flex;
-            padding: 0px;
+            margin-top: -10px;
             justify-content: right;
         }
 
         .doctor-image>div {
             padding: 10px;
             margin: 10px;
+
         }
 
         .round>img {
             border-radius: 100%;
+            margin-left: 60px;
         }
 
         .r1>img {
@@ -315,18 +331,14 @@
             background-color: darkslateblue;
             color: white;
             padding: 20px;
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
-        .f1 {
-            display: flex;
-            justify-content: space-between;
-        }
 
         #faq-1 {
             display: flex;
-            padding: 30px;
+            padding: 40px;
 
 
         }
@@ -381,9 +393,9 @@
         }
 
         .blog-item>div {
-            border: 1px solid;
+            border: 1px solid #d3d3d3;
             border-radius: 10px;
-            background-color: whitesmoke;
+            background-color: #f3f3f3;
             width: 100px;
             margin: 5px;
             text-align: center;
@@ -400,7 +412,7 @@
         #terms {
             background-color: darkslateblue;
             color: white;
-            max-width: 1200px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
@@ -450,17 +462,19 @@
             border-bottom-left-radius: 10px;
             background-color: darkblue;
             font-size: 1.2rem;
+
         }
 
 
         .term-3 {
             display: flex;
             margin-left: 42px;
-
+            border: none;
         }
 
         .term-3>div {
             margin: 20px;
+
         }
 
         .term-4 {
@@ -481,17 +495,17 @@
         #call2 {
             display: flex;
             padding: 20px;
-            background-color: lightgray;
+            background-color: #f3f3f3;
             height: 250px;
             margin-left: 30px;
-            width: 570px;
+            width: 470px;
         }
 
         .call-1 {
             color: white;
             padding: 20px;
             background-color: gray;
-            width: 430px;
+            width: 400px;
             height: 250px;
             font-size: 1.6rem;
         }
@@ -501,25 +515,21 @@
             display: flex;
             width: 250px;
             padding: 5px 10px;
-            border-top-right-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            border-bottom-left-radius: 10px;
+            border-radius: 120px;
             background-color: darkblue;
             margin-left: 190px;
+            border: none;
 
         }
 
         .form>input {
             background-color: darkblue;
+            border: none;
         }
 
         .form {
             padding: 15px 10px;
-            border-top-right-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            border-bottom-left-radius: 10px;
+            border-radius: 120px;
             background-color: darkblue;
             width: 220px;
             margin-left: 30px;
@@ -528,6 +538,8 @@
 
         .form-1>input {
             background-color: darkblue;
+            border: none;
+
         }
 
         #about-1 {
@@ -536,20 +548,18 @@
 
         .enter-mail {
             margin: 20px;
-            margin-left: 190px;
-            width: 250px;
+            margin-left: 490px;
+            width: 220px;
             display: flex;
-            padding: 5px 10px;
-            border-top-right-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            border-bottom-left-radius: 10px;
+            padding: 3px 10px;
+            border-radius: 120px;
             background-color: darkblue;
 
         }
 
         .enter-mail>input {
             background-color: darkblue;
+            border: none;
 
         }
 
@@ -558,33 +568,38 @@
             margin-left: 185px;
             width: 285px;
             display: flex;
-            padding: 10px 15px;
-            border-top-right-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            border-bottom-left-radius: 10px;
+            padding: 15px;
+            border-radius: 120px;
             background-color: darkblue;
+
+
+        }
+
+        .date>input {
+            background-color: darkblue;
+            color: white;
+            border: none;
+
         }
 
         .button {
             text-align: center;
             justify-content: center;
             font-size: 1.9rem;
-            padding: 5px 10px;
-            border-top-right-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            border-bottom-left-radius: 10px;
+            padding: 1px 10px;
+            border-radius: 120px;
             background-color: darkblue;
             width: 110px;
             outline: none;
             margin-left: 185px;
             padding-bottom: 10px;
+
         }
 
         .button>button {
             background-color: darkblue;
             color: white;
+            border: none;
 
         }
 
@@ -605,6 +620,7 @@
         .button-hearnic>button {
             background-color: darkblue;
             color: white;
+            border: none;
 
         }
 
@@ -621,32 +637,35 @@
 
 
         .d2 {
-            margin-top: 80px;
-
+            padding: 30px;
+            margin-right: 40px;
         }
 
-        .d2>span {
+        .d2>div {
             border: 1px solid lightgray;
-            background-color: whitesmoke;
+            background-color: #f7f7f7;
             border-radius: 100%;
-            padding: 40px;
-            padding-left: 35px;
-            padding-right: 35px;
-            padding-bottom: 70px;
-            padding-top: 70px;
-            margin-right: 135px
+            height: 150px;
+            width: 150px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
         }
 
         .r1>span {
             border: 1px solid lightgray;
-            background-color: whitesmoke;
+            background-color: #f7f7f7;
             border-radius: 100%;
-            padding: 40px;
-            padding-left: 35px;
-            padding-right: 35px;
-            padding-bottom: 70px;
-            padding-top: 70px;
-            margin-right: 135px
+            height: 170px;
+            width: 170px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
 
         .drag>span {
@@ -672,8 +691,19 @@
             font-size: 1.1rem;
         }
 
+
         .about-list>div {
             width: 190px;
+        }
+
+        .list-plus {
+            border-radius: 100%;
+            border: 1px solid;
+            padding: 15px;
+            background-color: #f3f3f3;
+            height: 35px;
+            width: auto;
+            margin: 5px;
         }
 
         .about-list p {
@@ -717,7 +747,15 @@
         .doctor-heading {
             display: flex;
             justify-content: space-between;
-            padding: 20px;
+            padding: 140px;
+            margin-left: -20px;
+            margin-top: -90px;
+        }
+
+        .hr {
+            height: 2px;
+            background-color: #d4d4d4;
+            border: none;
         }
     </style>
 
@@ -772,7 +810,7 @@
                 <br>
                 <div id="image-part">
                     <span style="font-size: 30px">20%</span>
-                    <button type="button" style="font-size: 15px;padding:15px">Make an appointment</button>
+                    <button type="button" style="font-size: 15px;padding:15px;border:none">Make an appointment</button>
 
                 </div>
             </div>
@@ -801,8 +839,8 @@
         <div id="second-2">
             <div class="arrow-hearing">
                 <div>
-                    <img style="border-radius: 100%; border: 1px solid grey;margin-bottom:20px" src="img/arrow.jpg"
-                        alt="img" height="80" width="auto">
+                    <img style="border-radius: 100%; border: 1px solid grey;background-color:#f7f7f7;margin-bottom:20px"
+                        src="img/arror-nobg-right.png" alt="img" height="80" width="auto">
                 </div>
                 <div>
                     <h1 style="margin: 100px;margin-bottom:20px">Hearing problem resolving<br> of any complexity at a
@@ -854,7 +892,7 @@
                 <div>
                     <h1>Gallery</h1>
                 </div>
-                <div>
+                <div class="gallery_middle_part">
                     <h1><b>Check out our clinic<br> great gallery</b></h1>
                     <div class="clinic-gallery">
                         <div>#clinic</div>
@@ -876,9 +914,9 @@
             </div>
             <div id="part-3">
                 <div>
-                    <img src="img/therapy-collection.webp" alt="therapy" height="550" width="400">
+                    <img src="img/therapy-collection.webp" alt="therapy" height="550" width="435">
                     <p><b>01 / Collection of therapy</b></p>
-                    <P style="padding-left: 22px;"> The boy got a 50% discount</P>
+                    <P style="padding-left: 22px;color:#7A7878"> The boy got a 50% discount</P>
                 </div>
                 <div style="margin-top: 210px;" class="drag">
                     <span>
@@ -886,9 +924,9 @@
                     </span>
                 </div>
                 <div>
-                    <img src="img/portrait.2jpeg.jpg" alt="portrait2" height="400" width="400">
+                    <img src="img/portrait.2jpeg.jpg" alt="portrait2" height="400" width="435">
                     <p><b>02 / Therapy equipment</b></p>
-                    <p style="margin-left: 30px;">Best equipment for therapy</p>
+                    <p style="margin-left: 30px; color:#7A7878">Best equipment for therapy</p>
                 </div>
             </div>
         </div>
@@ -907,87 +945,80 @@
                     All
                 </div>
                 <div
-                    style="background-color:white;color:black;border:1px solid;border-radius:20px;width:90px;text-align:center;margin-bottom:70px;padding:10px">
+                    style="background-color:#f3f3f3;color:black;border:1px solid;border-radius:20px;width:90px;text-align:center;margin-bottom:70px;padding:10px">
                     For adult</div>
                 <div
-                    style="background-color:white;color:black;border:1px solid;border-radius:20px;width:90px;text-align:center;margin-bottom:70px;padding:10px">
+                    style="background-color:#f3f3f3;color:black;border:1px solid;border-radius:20px;width:90px;text-align:center;margin-bottom:70px;padding:10px">
                     For children
                 </div>
             </div>
             <div class="list">
                 <div>
                     <h1>Diagnostic examination with consulation of an audiologist</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px;" alt="/"
-                        height="35" width="auto">
+                    <img style="margin-top: 30px;" class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>children's audiologist</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
 
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Consultation with a specialized therapist</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Consultation with a audiologist therapist</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Therapy for speech and hearing problem</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Hearing problem solution</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Treatment of Presbyterians</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Therapy Treatment of dysarthria</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Therapy treatment of high level of Amyotrophic lateral sclerosis</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img style="margin-top: 20px;" class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Treatment for sensorineural</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
                 <div>
                     <h1>Outpatient course of conservation treatment</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
+                <div>
+                    <h1>Hardware treatment(stuttering,apraxia,ASND,sensorineural)</h1>
+                    <img style="margin-top: 20px;" class="list-plus" src="img/plus-removebg.png">
+                </div>
+                <hr class="hr">
                 <div>
                     <h1>Therapy and Aid</h1>
-                    <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:15px" alt="/"
-                        height="35" width="auto">
+                    <img class="list-plus" src="img/plus-removebg.png">
                 </div>
-                <hr>
+                <hr class="hr">
 
 
             </div>
@@ -995,31 +1026,31 @@
     </section>
     <div id="call-doctor">
         <div class="call-1">
-            <div>
-                <p>Take a discount for a child under 5 years<br> of age,for the fist examination</p>
+            <div style="margin-top: -20px;">
+                <p>Take a discount for a child under 5 years of age,for the fist examination</p>
             </div>
             <br>
-            <div style="display: flex;justify-content:space-between;padding:20px" class="call">
+            <div style="display: flex;justify-content:space-between;padding:10px" class="call">
                 <div>
-                    <p style="font-size: 2.5rem;">50%</p>
+                    <p style="font-size: 3.2rem;">50%</p>
                 </div>
                 <div>
-                    <img src="img/call.png"
-                        style="border-radius: 100%;border:1px solid;background-color:white;padding:10px;margin:20px"
+                    <img src="img/call_removebg.png"
+                        style="border-radius: 100%;border:1px solid;background-color:white;padding:10px;margin-top:40px"
                         alt="/" height="45" width="auto">
                 </div>
             </div>
         </div>
         <div id="call2">
             <div>
-                <img style="margin-top: -68.5px;"" src=" img/no_bg_doctor.png" height="340" width="210">
+                <img style="margin-top: -68.5px;"" src=" img/no_bg_doctor.png" height="340" width="200">
             </div>
             <div>
-                <div style="display: flex;margin-top:50px;">
+                <div style="display: flex;margin-top:20px;">
                     <img src="img/quote.png" style="border-radius: 100%;border:1px solid;padding:10px" alt="/"
                         height="20" width="auto">
-                    <h1 style="font-size: 1.4rem;margin:10px">"Stand up to the sick s you<br> world have them stand
-                        up to<br> you in the hour of illness</h1>
+                    <h1 style="font-size: 1.4rem;margin:10px">"Stand up to the sick s you world have them stand
+                        up to you in the hour of illness</h1>
                 </div>
                 <span style="font-size:1.4rem;margin-left: 60px;">Dr.Arti Sukhla</span>
             </div>
@@ -1036,20 +1067,20 @@
             </div>
             <div>
                 <h1 style="font-size: 2.6rem;">Aid Speacialist and<br> audiologist</h1>
-                <p style="color:grey">Our Clinic employs only Professional<br> Speacialist and audiologist.we
+                <p style="color: #848080;">Our Clinic employs only Professional<br> Speacialist and audiologist.we
                     selected the <br>best doctor
                     on a regular basis.</p>
             </div>
             <div class="d2">
-                <span>
+                <div>
                     <b>All Doctors →</b>
-                </span>
+                </div>
             </div>
         </div>
         <div id="doctor-photo">
             <div class="doctor-image">
                 <div>
-                    <img src="img/new-doctor.jpeg" alt="doctor" height="350" width="340">
+                    <img src="img/new-doctor.jpeg" alt="doctor" height="auto" width="320px">
                     <h1>Dr.Shayam Khurana</h1>
                     <p>Work experience-8 years</p>
 
@@ -1060,7 +1091,7 @@
                     <div style="width: 200px;" class="new-skill">head of the department</div>
                 </div>
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="340">
+                    <img src="img/new-doctor.jpeg" height="auto" width="320">
                     <h1>Dr. Arti Sukhla</h1>
                     <p>Work experience-8 years</p>
 
@@ -1074,7 +1105,7 @@
             </div>
             <div class="doctor-image">
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="340">
+                    <img src="img/new-doctor.jpeg" height="auto" width="320">
                     <h1>Dr.Rani kohli</h1>
                     <p>Work experience-2 years</p>
 
@@ -1086,7 +1117,7 @@
                     <div style="width: 60px;" class="new-skill">Intern</div>
                 </div>
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="340">
+                    <img src="img/new-doctor.jpeg" height="auto" width="320">
                     <h1>Dr.Nikhil Nanda</h1>
                     <p>Work experience-2 years</p>
 
@@ -1100,7 +1131,7 @@
             </div>
             <div class="doctor-image">
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="340">
+                    <img src="img/new-doctor.jpeg" height="auto" width="320">
                     <h1>Dr.Rahul Sharma</h1>
                     <p>Work experience-3 years</p>
 
@@ -1112,7 +1143,7 @@
                     <div style="width: 60px;" class="new-skill">Intern</div>
                 </div>
                 <div>
-                    <img src="img/new-doctor.jpeg" height="350" width="340">
+                    <img src="img/new-doctor.jpeg" height="auto" width="320">
                     <h1>Dr.Kulkarni Thakur</h1>
                     <p>Work experience-3 years</p>
 
@@ -1132,17 +1163,20 @@
             <div>
                 <h1>Reveiw</h1>
             </div>
-            <div style="font-size: 1.7rem;">
+            <div style="font-size: 1.6rem;padding:20px">
                 <h1>Feedback from our<br> favorite customers</h1>
-                <p>we treat our customers better than any<br> other clinic.Thank you for being with us!</p>
+                <p style="color: #7A7878;margin-top:-30px">we treat our customers better than any<br> other clinic.Thank
+                    you
+                    for being
+                    with us!</p>
             </div>
-            <div style="margin-top: 100px;" class="r1">
+            <div style="margin-top: 70px;" class="r1">
                 <span>All reveiws →</span>
             </div>
         </div>
         <div style="display: flex;" class="reveiw-2">
             <div class="round">
-                <img src="img/reveiw-icon.jpeg" height="160" width="160">
+                <img src="img/reveiw-icon.jpeg" height="120" width="120">
             </div>
             <div>
                 <div style="border-radius: 100%;border:1px solid;height:65px;width:65px;margin:10px" class="r1">
@@ -1155,7 +1189,7 @@
                         smiling,the staff is young and<br> humorous,they are helpful,drunk<br> and reassuring."</b></p>
 
                 <h1 style="font-size: 1.2rem;">Tannu Jha</h1>
-                <span>5 days old</span>
+                <span style="color: #7A7878">5 days old</span>
 
             </div>
 
@@ -1173,7 +1207,7 @@
         <div id="appointment-2">
 
             <div>
-                <h1 style="margin-left:180px">About yourself</h1>
+                <h1 style="margin-left:180px;margin-top:-20px">About yourself</h1>
             </div>
             <div id="about-1">
                 <div class="form-1">
@@ -1202,12 +1236,12 @@
             <div style="display: flex;margin-left:180px">
                 <div>
                     <h1
-                        style="border: 1px;background-color:navy;width:300px;border-radius:120px;padding:5px;font-size:1.4rem">
+                        style="border: 1px;background-color:navy;width:300px;border-radius:120px;padding:10px;font-size:1.4rem">
                         Overveiw of specialization +</h1>
                 </div>
                 <div style="margin-left: 40px;">
                     <h1
-                        style="border: 1px;background-color:navy;width:300px;border-radius:120px;padding:5px;font-size:1.4rem">
+                        style="border: 1px;background-color:navy;width:300px;border-radius:120px;padding:10px;font-size:1.4rem">
                         Chect out the expert +</h1>
                 </div>
             </div>
@@ -1226,35 +1260,31 @@
             <div>
                 <h1>FAQ</h1>
             </div>
-            <div style="margin-left:190px">
+            <div style="margin-left:140px;">
                 <div style="font-size: 1.9rem;">
                     <h1>Question from <br>our clients</h1>
                 </div>
-                <div>
+                <div class="faq-list">
                     <div class="f1">
                         <h1>Is it possible to pay for clinic services at the expense of the organization?</h1>
-                        <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:10px" alt="/"
-                            height="25" width="auto">
+                        <img class="list-plus" src="img/plus-removebg.png">
                     </div>
-                    <hr>
+                    <hr class="hr">
                     <div class="f1">
                         <h1>Where can i find information about the licenses of the clinic</h1>
-                        <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:10px" alt="/"
-                            height="25" width="auto">
+                        <img class="list-plus" src="img/plus-removebg.png">
                     </div>
-                    <hr>
+                    <hr class="hr">
                     <div class="f1">
                         <h1>Are there any discount available?</h1>
-                        <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:10px" alt="/"
-                            height="25" width="auto">
+                        <img class="list-plus" src="img/plus-removebg.png">
                     </div>
-                    <hr>
+                    <hr class="hr">
                     <div class="f1">
                         <h1>Does"Hearnic"clinic provide treatment on credit?</h1>
-                        <img src="img/plus.png" style="border-radius: 100%;border:1px solid;padding:10px" alt="/"
-                            height="25" width="auto">
+                        <img class="list-plus" src="img/plus-removebg.png">
                     </div>
-                    <hr>
+                    <hr class="hr">
 
                 </div>
             </div>
@@ -1317,7 +1347,7 @@
                         <div>Audiologist</div>
 
                     </div>
-                    <div style="border: 1px solid;border-radius: 10px;background-color: whitesmoke;width: 100px;margin: 5px;
+                    <div style="border: 1px solid #d3d3d3;border-radius: 10px;background-color: #f3f3f3;width: 100px;margin: 5px;
                     text-align: center;">Hearing aid</div>
                     <div>
                         <h1>The modern benchmark for<br> therapy in 2023</h1>
@@ -1332,7 +1362,7 @@
                         <div>speech therapy</div>
 
                     </div>
-                    <div style="border: 1px solid;border-radius: 10px;background-color: whitesmoke;width: 100px;margin: 5px;
+                    <div style="border: 1px solid #d3d3d3;border-radius: 10px;background-color: #f3f3f3;width: 100px;margin: 5px;
                     text-align: center;">What is asnd</div>
                     <div>
                         <h1>What is better to choose in the<br> opinion of a practitioner:Audio<br>therapy?</h1>
@@ -1363,7 +1393,7 @@
             </div>
             <div class="term-3">
                 <div class="input">
-                    <input type="text" placeholder="Full name">
+                    <input style="border: none;" type="text" placeholder="Full name">
                 </div>
                 <div class="input">
                     <span>What do you want to be called +</span>
@@ -1375,7 +1405,7 @@
                 </div>
                 <div class="input-2">
                     <span>91+</span>
-                    <input style="background-color: darkblue;" type="tel" placeholder="Enter your number">
+                    <input style="background-color: darkblue;border: none;" type="tel" placeholder="Enter your number">
                 </div>
             </div>
             <div class="button-hearnic">
